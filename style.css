@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    height: 70vh;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0px;
+}
+
+.bars_container{
+    display: flex;
+    flex-direction: row;
+}
+
+.bar{
+    width: 10px;
+    background-color: rgb(4, 255, 255);
+    margin: 0 3px;
+    border-radius: 2px;
+}
+
+body{
+    background-color: #000000;
+}
+
+.buttons_container {
+    margin-top: 1em;
+    margin-bottom: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.buttons_container > button, select{
+    width: 200px;
+    height: 30px;   
+    background-color: #f28423;
+    border: none;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    cursor: pointer;
+    text-align: center;
+    transition:  0.2s ease-in-out;
+}
+
+button:hover{
+    background-color: #c6c8cb;
+}
+
+#foot {
+    display: flex;
+    justify-content: center;
+}
+
+th {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+td {
+    text-align: center;
+}
